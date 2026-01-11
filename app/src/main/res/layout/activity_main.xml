@@ -42,6 +42,13 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Shared Bill Tracker"
+            android:layout_marginBottom="8dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnBalance"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Balance &amp; Settlement"
             android:layout_marginBottom="16dp" />
 
         <View

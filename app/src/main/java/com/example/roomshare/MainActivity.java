@@ -44,6 +44,9 @@ public class MainActivity extends AppCompatActivity {
         binding.btnBillTracker.setOnClickListener(v -> 
             startActivity(new Intent(this, BillActivity.class)));
 
+        binding.btnBalance.setOnClickListener(v -> 
+            startActivity(new Intent(this, BalanceActivity.class)));
+
         binding.btnDeleteRoom.setOnClickListener(v -> deleteSelectedRoom());
 
         roomAdapter = new ArrayAdapter<>(this, android.R.layout.simple_spinner_item, new ArrayList<>());
