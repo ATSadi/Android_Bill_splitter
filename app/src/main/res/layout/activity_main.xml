@@ -49,6 +49,20 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Balance &amp; Settlement"
+            android:layout_marginBottom="8dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnHistory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="History &amp; Filters"
+            android:layout_marginBottom="8dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnReports"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Reports &amp; Charts"
             android:layout_marginBottom="16dp" />
 
         <View

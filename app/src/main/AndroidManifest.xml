@@ -32,6 +32,12 @@
         <activity
             android:name=".BalanceActivity"
             android:exported="false" />
+        <activity
+            android:name=".HistoryActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ReportActivity"
+            android:exported="false" />
     </application>
 
 </manifest>
