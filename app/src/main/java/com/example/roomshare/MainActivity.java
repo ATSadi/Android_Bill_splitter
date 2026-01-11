@@ -41,6 +41,9 @@ public class MainActivity extends AppCompatActivity {
         binding.btnChoreBoard.setOnClickListener(v -> 
             startActivity(new Intent(this, ChoreActivity.class)));
 
+        binding.btnBillTracker.setOnClickListener(v -> 
+            startActivity(new Intent(this, BillActivity.class)));
+
         binding.btnDeleteRoom.setOnClickListener(v -> deleteSelectedRoom());
 
         roomAdapter = new ArrayAdapter<>(this, android.R.layout.simple_spinner_item, new ArrayList<>());

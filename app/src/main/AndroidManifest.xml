@@ -26,6 +26,9 @@
         <activity
             android:name=".ChoreActivity"
             android:exported="false" />
+        <activity
+            android:name=".BillActivity"
+            android:exported="false" />
     </application>
 
 </manifest>

@@ -13,17 +13,3 @@
 .externalNativeBuild
 .cxx
 local.properties
-
-# Instruction and command-related files (should not be visible to teachers)
-*instruction*.md
-*command*.md
-*phase*.md
-*PHASE*.md
-*INSTRUCTION*.md
-*COMMAND*.md
-instructions.md
-INSTRUCTIONS.md
-commands.md
-COMMANDS.md
-PHASE*.md
-phase*.md

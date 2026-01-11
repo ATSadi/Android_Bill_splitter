@@ -35,6 +35,13 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Chore Board"
+            android:layout_marginBottom="8dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnBillTracker"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Shared Bill Tracker"
             android:layout_marginBottom="16dp" />
 
         <View
